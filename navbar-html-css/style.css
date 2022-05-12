@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-header: #E5E8EE;
+    --bg-navbar: #E0E0E7;
+    --bg-hover: #383838;
+    --font-navbar: 'Roboto', sans-serif;
+}
+
+body {
+    background: #ece8e8;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    color: var(--bg-hover);
+}
+
+p {
+    color: rgb(72, 71, 71);
+}
+
+/* header section */
+
+.logo {
+    width: 180px;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    color: var(--bg-hover);
+}
+
+.header-container {
+    background: var(--bg-header);
+}
+
+/* navbar section */
+nav {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.nav-container {
+    background: var(--bg-navbar);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 1.125em;
+    font-weight: bold;
+}
+
+.nav-links li a {
+    padding: 10px;
+    transition: ease .5s;
+    border-radius: 5px;
+    color: var(--bg-hover);
+}
+
+.nav-links li a:hover {
+    color: white;
+    background-color: #383838;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    border: none;
+    background: var(--bg-hover);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: ease-in-out .6s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #626262;
+}
+
+/* hero section */
+
+.hero-container {
+    background: #ece8e8;
+}
+
+.hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+}
+
+.hero-text p {
+    font-size: 1.125em;
+    max-width: 600px;
+    padding: 20px 30px 30px 0px;
+}
+
+.hero-img img {
+    border-radius: 5px;
+    max-width: 650px;
+    box-shadow: 5px 5px 15px black;
+}
